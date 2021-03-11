@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon src/task-1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainath97/NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sainath97/NodeJs/issues"
+  },
+  "homepage": "https://github.com/sainath97/NodeJs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
