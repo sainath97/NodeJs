@@ -7,7 +7,8 @@
     "task1": "nodemon src/task-1.1.js",
     "task2": "nodemon src/task-1.2.js",
     "task1WithBabel": "nodemon --exec babel-node src/task-1.1.js",
-    "task2WithBabel": "nodemon --exec babel-node src/task-1.2-babel.js"
+    "task2WithBabel": "nodemon --exec babel-node src/task-1.2-babel.js",
+    "task1WithoutStreams": "nodemon --exec babel-node src/task-1.1-without-streams.js"
   },
   "repository": {
     "type": "git",
