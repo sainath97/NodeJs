@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "task1": "nodemon src/task-1.1.js",
-    "task2": "nodemon src/task-1.2.js"
+    "task2": "nodemon src/task-1.2.js",
+    "task1WithBabel": "nodemon --exec babel-node src/task-1.1.js",
+    "task2WithBabel": "nodemon --exec babel-node src/task-1.2-babel.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,9 @@
   },
   "homepage": "https://github.com/sainath97/NodeJs#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
