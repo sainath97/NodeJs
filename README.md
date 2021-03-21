@@ -27,3 +27,11 @@ Run below command to execute Task 1.1
 Run below command to execute Task 1.2
 
     npm run task2
+
+# TASK 1.3
+
+    Rewrite the above-mentioned programs to use babel(https://babeljs.io/)and ES6modules.
+Run below commands to execute above tasks using babel
+    
+    npm run task1WithBabel
+    npm run task2WithBabel
