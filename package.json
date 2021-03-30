@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task1": "nodemon src/task-1.1.js",
-    "task2": "nodemon src/task-1.2.js",
-    "task1WithBabel": "nodemon --exec babel-node src/task-1.1.js",
-    "task2WithBabel": "nodemon --exec babel-node src/task-1.2-babel.js",
-    "task1WithoutStreams": "nodemon --exec babel-node src/task-1.1-without-streams.js"
+    "task1.1": "nodemon src/HomeTask-1/task-1.1.js",
+    "task1.2": "nodemon src/HomeTask-1/task-1.2.js",
+    "task1.1WithBabel": "babel-node src/HomeTask-1/task-1.1.js",
+    "task1.2WithBabel": "babel-node src/HomeTask-1/task-1.2-babel.js",
+    "task1.1WithoutStreams": "babel-node src/HomeTask-1/task-1.1-without-streams.js"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,7 @@
       atad tset
 Run below command to execute Task 1.1
 
-    npm run task1
+    npm run task1.1
 
 # TASK 1.2
 
@@ -26,12 +26,12 @@ Run below command to execute Task 1.1
     • The program should be started via npm scriptusing nodemon(i.e. npm run task2).
 Run below command to execute Task 1.2
 
-    npm run task2
+    npm run task1.2
 
 # TASK 1.3
 
     Rewrite the above-mentioned programs to use babel(https://babeljs.io/)and ES6modules.
 Run below commands to execute above tasks using babel
     
-    npm run task1WithBabel
-    npm run task2WithBabel
+    npm run task1.1WithBabel
+    npm run task1.2WithBabel
