@@ -9,8 +9,6 @@
     "task1.1WithBabel": "nodemon --exec babel-node src/HomeTask-1/task-1.1.js",
     "task1.2WithBabel": "nodemon --exec babel-node src/HomeTask-1/task-1.2-babel.js",
     "task1.1WithoutStreams": "nodemon --exec babel-node src/HomeTask-1/task-1.1-without-streams.js",
-    "webpage": "cross-env PORT=3031 node src/serverStatic.js",
-    "exampleApi": "nodemon --exec babel-node src/exampleAPI.js",
     "task2": "nodemon src/HomeTask-2/index.js"
   },
   "repository": {
